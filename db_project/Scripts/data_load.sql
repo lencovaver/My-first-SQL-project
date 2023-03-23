@@ -1,0 +1,64 @@
+-- zde budou insert statements pro vsechny tabulky v projektu
+INSERT INTO student (id, name) VALUES (1, 'student 1');
+INSERT INTO student (id, name) VALUES (2, 'student 2');
+INSERT INTO student (id, name) VALUES (3, 'student 3');
+INSERT INTO student (id, name) VALUES (4, 'student 4');
+INSERT INTO student (id, name) VALUES (5, 'student 5');
+INSERT INTO student (id, name) VALUES (6, 'student 6');
+INSERT INTO student (id, name) VALUES (7, 'student 7');
+INSERT INTO student (id, name) VALUES (8, 'student 8');
+INSERT INTO student (id, name) VALUES (9, 'student 9');
+INSERT INTO student (id, name) VALUES (10, 'student 10');
+INSERT INTO student (id, name) VALUES (11, 'student 11');
+INSERT INTO student (id, name) VALUES (12, 'student 12');
+INSERT INTO student (id, name) VALUES (13, 'student 13');
+INSERT INTO student (id, name) VALUES (14, 'student 14');
+INSERT INTO student (id, name) VALUES (15, 'student 15');
+INSERT INTO student (id, name) VALUES (16, 'student 16');
+INSERT INTO student (id, name) VALUES (17, 'student 17');
+INSERT INTO student (id, name) VALUES (18, 'student 18');
+INSERT INTO student (id, name) VALUES (19, 'student 19');
+INSERT INTO student (id, name) VALUES (20, 'student 20');
+
+INSERT INTO course (id, name) VALUES (1, 'course 1');
+INSERT INTO course (id, name) VALUES (2, 'course 2');
+INSERT INTO course (id, name) VALUES (3, 'course 3');
+INSERT INTO course (id, name) VALUES (4, 'course 4');
+INSERT INTO course (id, name) VALUES (5, 'course 5');
+INSERT INTO course (id, name) VALUES (6, 'course 6');
+ 
+INSERT INTO trainer (id, name, course_id) VALUES (1, 'trener 1', 1);
+INSERT INTO trainer (id, name, course_id) VALUES (2, 'trener 2', 2);
+INSERT INTO trainer (id, name, course_id) VALUES (3, 'trener 3', 3);
+INSERT INTO trainer (id, name, course_id) VALUES (4, 'trener 4', 4);
+INSERT INTO trainer (id, name, course_id) VALUES (5, 'trener 2', 5);
+INSERT INTO trainer (id, name, course_id) VALUES (6, 'trener 3', 6);
+
+INSERT INTO student_course_signup (student_id, course_id) VALUES (1, 2);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (2, 1);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (3, 3);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (4, 6);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (5, 2);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (6, 3);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (7, 4);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (8, 5);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (9, 4);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (10, 3);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (11, 1);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (12, 2);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (13, 1);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (14, 6);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (15, 4);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (16, 2);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (17, 1);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (18, 4);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (19, 5);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (20, 1);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (5, 5);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (1, 6);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (2, 3);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (3, 2);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (14, 2);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (11, 3);
+INSERT INTO student_course_signup (student_id, course_id) VALUES (20, 5);
+  
